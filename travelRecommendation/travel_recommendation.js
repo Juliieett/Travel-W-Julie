@@ -27,7 +27,7 @@ fetch('travel_recommendation_api.json')
     });
     searchButton.addEventListener('click',  () => {
       const keyword = searchInput.value.trim().toLowerCase();
-      resultsDiv.innerHTML = ''; // Clear previous results
+      resultsDiv.innerHTML = ''; 
 
       if (keyword === 'beach' || keyword === 'beaches') {
         data.beaches.slice(0,2).forEach(beach => {
