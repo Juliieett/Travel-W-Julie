@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <input type="text" placeholder="Search Your Destination">
+        <button>Search</button>
+        <button>Clear</button>
+    </nav>
+    <h1 id = "Welcome-Text">Contact Us Anytime </h1>
+    
+     <form id="contact-Form">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="condition">Destination</label>
+      <input type="text" id="condition" name="condition" required>
+    </div>
+    <div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit" onclick="thankyou()">Submit</button>
+  </form>
+
+  <script>
+    function thankyou() {
+      alert("Thank you for contacting us. We will get back to you shortly.");
+    }
+    </script>
+</body>
+</html>

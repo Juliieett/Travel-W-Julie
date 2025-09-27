@@ -1,0 +1,144 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url("https://wallpapershome.com/images/pages/pic_h/5540.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+
+nav {
+  width: 100%;
+  background: rgba(255,255,255,0.8);
+  padding: 15px 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #a43939;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav input[type="text"] {
+  padding: 5px;
+  margin-left: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+nav button {
+  padding: 5px 12px;
+  margin-left: 5px;
+  border-radius: 4px;
+  border: none;
+  background: #a43939;
+  color: #fff;
+  cursor: pointer;
+}
+
+#Welcome-Text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #a43939;
+  background: rgba(255,255,255,0.7);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+#contact-Form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #a43939;
+}
+
+#contact-Form input[type="text"],
+#contact-Form input[type="email"],
+#contact-Form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  background: #fff;
+}
+
+#contact-Form textarea {
+  min-height: 80px;
+}
+#contact-Form button[type="submit"] {
+  background: #a43939;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+#contact-Form button[type="submit"]:hover {
+  background: #a18080;
+}/* ...existing code... */
+
+#recommendation-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.recommendation-card {
+  background: rgba(255,255,255,0.85);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(164,57,57,0.15);
+  padding: 20px;
+  max-width: 320px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.recommendation-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 4px 16px rgba(164,57,57,0.25);
+}
+
+.recommendation-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.recommendation-card h3 {
+  color: #a43939;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.recommendation-card p {
+  color: #333;
+  font-size: 16px;
+}
+
+/* ...existing code... */
